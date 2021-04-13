@@ -1,0 +1,102 @@
+
+/*Funcion para el Sticky footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+ main {
+    flex: 1 0 auto;
+}
+/*Funcion para el Sticky footer*/
+
+
+/*---------------- ELEMENTOS DE LA PAGINA INDEX PUBLICA ---------------------------------*/
+
+/*Card para nuestra historia*/
+#nuestra_historia{
+    margin-top: 85px;
+}
+
+/*Titulo para los propositos de la empresa*/
+#tituloPropositos{
+    padding-top: 50px;
+
+}
+
+/*Cards para los propositos de la empresa*/
+#propositosCard{
+    padding-bottom: 50px;
+}
+
+/*Barra de navegación*/
+#navbar{
+    height: 125px;
+    background-color: #D4AC0D;
+}
+
+
+/*Opciones del navbar*/
+#navbarMenu{
+    padding-top: 60px;
+    padding-right: 300px;   
+}   
+
+/*Color de las letras del navbar*/
+#navbarMenu > li > a{
+    color: #04045d;
+}
+
+
+/*Titulo en el navbar con el nombre del negocio*/
+#nombreNegocio{
+    color: black;
+}
+
+/*Controlando el bloque del logo de la empresa y el nombre*/
+#bloqueLogo{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+/*Estilo del footer*/
+#footer_style{
+    background-color: #D4AC0D;
+}
+
+/*Color de los titulos del footer*/
+#footer_style_letras > div > h5{
+    color: black;
+}
+
+/*Color de las letras del footer*/
+#footer_style_letras > div > a{
+    color: #04045d;
+}
+
+/*Color de las letras del footer*/
+#footer_style_letras > div > ul > li > a{
+    color: #04045d;
+}
+
+/*---------------- ELEMENTOS DE LA PAGINA INDEX PUBLICA ---------------------------------*/
+
+
+/*---------------- ELEMENTOS DE LA PAGINA CATALOGO CAMISAS ------------------------------*/
+
+/*ComboBox para la marcas*/
+#search_combo{
+    margin-top: 100px;
+}
+
+#labelCombo{
+    margin-top: 100px;
+    padding-left: 15px;
+}
+
+/*---------------- ELEMENTOS DE LA PAGINA CATALOGO CAMISAS -------------------------------*/
+
+#labelTitulo{
+    margin-top: 80px;
+}
